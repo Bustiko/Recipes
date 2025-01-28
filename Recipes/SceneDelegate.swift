@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Recipes
 //
-//  Created by Buse Karabıyık on 28.01.2025.
+//  Created by Buse Karabıyık on 14.07.2023.
 //
 
 import UIKit

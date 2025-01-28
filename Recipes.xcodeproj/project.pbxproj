@@ -6,36 +6,46 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C96C2CC32D49658500F40474 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C96C2CC22D49658500F40474 /* FirebaseAuth */; };
+		C96C2CC52D49658500F40474 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = C96C2CC42D49658500F40474 /* FirebaseCore */; };
+		C96C2CC72D4965A300F40474 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C96C2CC62D4965A300F40474 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C96C2C862D4961D000F40474 /* Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96C2C9E2D4961F600F40474 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C96C2C9F2D4961F600F40474 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C96C2CA02D4961F600F40474 /* WelcomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageController.swift; sourceTree = "<group>"; };
+		C96C2CA12D4961F600F40474 /* LogInPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPageController.swift; sourceTree = "<group>"; };
+		C96C2CA22D4961F600F40474 /* RegisterPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageController.swift; sourceTree = "<group>"; };
+		C96C2CA32D4961F600F40474 /* MagicPizzaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicPizzaViewController.swift; sourceTree = "<group>"; };
+		C96C2CA42D4961F600F40474 /* DetailedRecipeSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedRecipeSummaryViewController.swift; sourceTree = "<group>"; };
+		C96C2CA52D4961F600F40474 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		C96C2CA62D4961F600F40474 /* MainRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRecipeViewController.swift; sourceTree = "<group>"; };
+		C96C2CA82D4961F600F40474 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C96C2CAB2D4961F600F40474 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		C96C2CAC2D4961F600F40474 /* GoogleAuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthModel.swift; sourceTree = "<group>"; };
+		C96C2CAD2D4961F600F40474 /* RecipeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeManager.swift; sourceTree = "<group>"; };
+		C96C2CAE2D4961F600F40474 /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
+		C96C2CAF2D4961F600F40474 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		C96C2CB02D4961F600F40474 /* FetchImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchImageModel.swift; sourceTree = "<group>"; };
+		C96C2CB22D4961F600F40474 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		C96C2CB32D4961F600F40474 /* Nunito-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		C96C2CB52D4961F600F40474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C96C2CB62D4961F600F40474 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C96C2CB82D4961F600F40474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96C2CB92D4961F600F40474 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C96C2CC62D4965A300F40474 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C96C2C982D4961D200F40474 /* Exceptions for "Recipes" folder in "Recipes" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = C96C2C852D4961D000F40474 /* Recipes */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C96C2C882D4961D000F40474 /* Recipes */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				C96C2C982D4961D200F40474 /* Exceptions for "Recipes" folder in "Recipes" target */,
-			);
-			path = Recipes;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C96C2C832D4961D000F40474 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C96C2CC52D49658500F40474 /* FirebaseCore in Frameworks */,
+				C96C2CC32D49658500F40474 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +55,9 @@
 		C96C2C7D2D4961D000F40474 = {
 			isa = PBXGroup;
 			children = (
-				C96C2C882D4961D000F40474 /* Recipes */,
+				C96C2CC62D4965A300F40474 /* .gitignore */,
+				C96C2CBA2D4961F600F40474 /* Recipes */,
+				C96C2CBE2D4962D600F40474 /* Frameworks */,
 				C96C2C872D4961D000F40474 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +68,74 @@
 				C96C2C862D4961D000F40474 /* Recipes.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C96C2CA72D4961F600F40474 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2CA02D4961F600F40474 /* WelcomePageController.swift */,
+				C96C2CA12D4961F600F40474 /* LogInPageController.swift */,
+				C96C2CA22D4961F600F40474 /* RegisterPageController.swift */,
+				C96C2CA32D4961F600F40474 /* MagicPizzaViewController.swift */,
+				C96C2CA42D4961F600F40474 /* DetailedRecipeSummaryViewController.swift */,
+				C96C2CA52D4961F600F40474 /* RecipeViewController.swift */,
+				C96C2CA62D4961F600F40474 /* MainRecipeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C96C2CAA2D4961F600F40474 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2CA92D4961F600F40474 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C96C2CB12D4961F600F40474 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2CAB2D4961F600F40474 /* GlobalVariables.swift */,
+				C96C2CAC2D4961F600F40474 /* GoogleAuthModel.swift */,
+				C96C2CAD2D4961F600F40474 /* RecipeManager.swift */,
+				C96C2CAE2D4961F600F40474 /* RecipeData.swift */,
+				C96C2CAF2D4961F600F40474 /* RecipeModel.swift */,
+				C96C2CB02D4961F600F40474 /* FetchImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C96C2CB42D4961F600F40474 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2CB22D4961F600F40474 /* Roboto-Medium.ttf */,
+				C96C2CB32D4961F600F40474 /* Nunito-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C96C2CBA2D4961F600F40474 /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2C9E2D4961F600F40474 /* AppDelegate.swift */,
+				C96C2C9F2D4961F600F40474 /* SceneDelegate.swift */,
+				C96C2CA72D4961F600F40474 /* Controller */,
+				C96C2CAA2D4961F600F40474 /* View */,
+				C96C2CB12D4961F600F40474 /* Model */,
+				C96C2CB42D4961F600F40474 /* Fonts */,
+				C96C2CB52D4961F600F40474 /* Assets.xcassets */,
+				C96C2CB72D4961F600F40474 /* LaunchScreen.storyboard */,
+				C96C2CB82D4961F600F40474 /* Info.plist */,
+				C96C2CB92D4961F600F40474 /* GoogleService-Info.plist */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+		C96C2CBE2D4962D600F40474 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,11 +153,10 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				C96C2C882D4961D000F40474 /* Recipes */,
-			);
 			name = Recipes;
 			packageProductDependencies = (
+				C96C2CC22D49658500F40474 /* FirebaseAuth */,
+				C96C2CC42D49658500F40474 /* FirebaseCore */,
 			);
 			productName = Recipes;
 			productReference = C96C2C862D4961D000F40474 /* Recipes.app */;
@@ -107,6 +186,9 @@
 			);
 			mainGroup = C96C2C7D2D4961D000F40474;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C96C2CC12D49658500F40474 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C96C2C872D4961D000F40474 /* Products */;
 			projectDirPath = "";
@@ -122,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C96C2CC72D4965A300F40474 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +219,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C96C2CA92D4961F600F40474 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C96C2CA82D4961F600F40474 /* Main.storyboard */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C96C2CB72D4961F600F40474 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C96C2CB62D4961F600F40474 /* LaunchScreen.storyboard */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C96C2C9A2D4961D200F40474 /* Debug */ = {
@@ -335,6 +437,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C96C2CC12D49658500F40474 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C96C2CC22D49658500F40474 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C96C2CC12D49658500F40474 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C96C2CC42D49658500F40474 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C96C2CC12D49658500F40474 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C96C2C7E2D4961D000F40474 /* Project object */;
 }
